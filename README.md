@@ -1,1 +1,2 @@
-# KODExplorer-diy
+# KodExplorer
+KodExplorer修改了静态资源文件通过cdn加载提升速度
