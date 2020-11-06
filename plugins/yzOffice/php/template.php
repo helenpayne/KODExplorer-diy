@@ -2,8 +2,8 @@
 <head>
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=no" />
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/style/common.css" type="text/css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/static/style/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/style/common.css" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/style/font-awesome/css/font-awesome.css">
 	<title><?php echo $fileName;?></title>
 	<style>
 		body {margin: 0;font-family: "Helvetica Neue Light", "Segoe UI Semilight", sans-serif;}
@@ -68,9 +68,9 @@
 	</div>
 	<div id="MyViewerDiv"></div>
 </body>
-	<script src="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/js/lib/jquery-1.8.0.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/js/lib/jquery-lib.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/js/lib/util.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/js/lib/jquery-1.8.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/js/lib/jquery-lib.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/js/lib/util.js"></script>
 
 	<script type="text/javascript">
 		var LNG = {

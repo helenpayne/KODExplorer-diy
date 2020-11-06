@@ -19,7 +19,7 @@ $config['settings'] = array(
 										 //https://www.lovelucy.info/x-sendfile-in-nginx.html
 	
 	'pluginServer'		=> "http://api.kodcloud.com/?",
-	'staticPath'		=> "https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/static/",	//静态文件目录,可以配置到cdn;
+	'staticPath'		=> "https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/",	//静态文件目录,可以配置到cdn;
 	'pluginHost'		=> PLUGIN_HOST  //静态文件目录
 );
 // windows upload threads;兼容不支持并发的服务器

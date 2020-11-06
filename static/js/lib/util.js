@@ -765,7 +765,7 @@ var stopPP = function(e){//防止事件冒泡
 var Tips =  (function(){
 	var inTime  = 400;
 	var delay = 1000;
-	var staticPath = "https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/static/";
+	var staticPath = "https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/";
 	if(typeof(G) != "undefined"){
 		staticPath = G.staticPath;
 	}
@@ -1058,7 +1058,7 @@ var MaskView =  (function(){
 	var animatetime = 250;
 	var maskId  = "#windowMaskView";
 	var maskContent = '#maskViewContent';
-	var staticPath = "https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/static/";
+	var staticPath = "https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/";
 	if(typeof(G) != "undefined"){
 		staticPath = G.staticPath;
 	}

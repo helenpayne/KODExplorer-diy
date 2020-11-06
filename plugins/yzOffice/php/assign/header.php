@@ -126,7 +126,7 @@
 		window.addEventListener = window.attachEvent;
 	}
 </script>
-<link href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/static/style/font-awesome/css/font-awesome.css?ver=<?php echo KOD_VERSION;?>" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/style/font-awesome/css/font-awesome.css?ver=<?php echo KOD_VERSION;?>" rel="stylesheet">
 <!--[if IE 7]>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/static/style/font-awesome/css/font-awesome-ie7.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/style/font-awesome/css/font-awesome-ie7.css">
 <![endif]--> 

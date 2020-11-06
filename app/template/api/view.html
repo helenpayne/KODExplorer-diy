@@ -6,14 +6,14 @@
 	<meta http-equiv="Content-Script-Type" content="text/javascript">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="renderer" content="webkit">
-	<link href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/images/common/favicon.ico" rel="Shortcut Icon">
-	<link href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/style/common.css?ver=<?php echo KOD_VERSION;?>" rel="stylesheet"/>
-	<link href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/static/style/font-awesome/css/font-awesome.css?ver=<?php echo KOD_VERSION;?>" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/style/skin/base/app_explorer.css?ver=<?php echo KOD_VERSION;?>"/>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/style/skin/win10.css?ver=<?php echo KOD_VERSION;?>"/>
+	<link href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/images/common/favicon.ico" rel="Shortcut Icon">
+	<link href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/style/common.css?ver=<?php echo KOD_VERSION;?>" rel="stylesheet"/>
+	<link href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/style/font-awesome/css/font-awesome.css?ver=<?php echo KOD_VERSION;?>" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/style/skin/base/app_explorer.css?ver=<?php echo KOD_VERSION;?>"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/style/skin/win10.css?ver=<?php echo KOD_VERSION;?>"/>
 	<title>File View</title>
 	<!--[if IE 7]>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/static/style/font-awesome/css/font-awesome-ie7.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/style/font-awesome/css/font-awesome-ie7.css">
 	<![endif]--> 
 </head>
 
@@ -49,7 +49,7 @@
 
 <body>
 	<div class="full-background"></div>
-	<div class="init-loading"><div><img src="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/images/common/loading_simple.gif?v=<?php echo KOD_VERSION;?>"/></div></div>
+	<div class="init-loading"><div><img src="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/images/common/loading_simple.gif?v=<?php echo KOD_VERSION;?>"/></div></div>
 	<div class="frame-main">
 		<div class="bindary-box hidden">
 			<div class="title"><div class="ico"></div></div>
@@ -64,7 +64,7 @@
 		</div>
 		<div class="content-box"></div>
 	</div><!-- / frame-main end-->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/js/lib/seajs/sea.js?ver=<?php echo KOD_VERSION;?>"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/js/lib/seajs/sea.js?ver=<?php echo KOD_VERSION;?>"></script>
 	<script type="text/javascript" src="./index.php?share/commonJs&st=api&act=view#id=<?php echo rand_string(4);?>"></script>
 
 	<?php
@@ -83,7 +83,7 @@
 		<?php if(ST.'.'.ACT == 'explorer.fileView'){echo "G.shareInfo.view = true;G.sharePage=undefined;";}?> 
 		G['accessToken'] = "<?php echo access_token_get();?>";
 		seajs.config({
-			base: "https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/js/",
+			base: "https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/js/",
 			preload: ["lib/jquery-1.8.0.min",'lib/ace/src-min-noconflict/ace'],
 			map:[
 				[ /^(.*\.(?:css|js))(.*)$/i,'$1$2?ver='+G.version]

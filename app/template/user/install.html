@@ -1,5 +1,5 @@
 <?php include(TEMPLATE.'common/header.html');?>
-	<link href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/style/login.css?ver=<?php echo KOD_VERSION;?>" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/style/login.css?ver=<?php echo KOD_VERSION;?>" rel="stylesheet">
 	<title><?php echo LNG('php_env_check').' - '.strip_tags(LNG('kod_name')).LNG('kod_power_by');?></title>
 </head>
 
@@ -57,7 +57,7 @@
 			}
 		},1000);
 		seajs.config({
-			base: "https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy/js/",
+			base: "https://cdn.jsdelivr.net/gh/sw586/KODExplorer-diy@1.0/static/js/",
 			preload: ["lib/jquery-1.8.0.min"],
 			map:[
 				[ /^(.*\.(?:css|js))(.*)$/i,'$1$2?ver='+G.version]
